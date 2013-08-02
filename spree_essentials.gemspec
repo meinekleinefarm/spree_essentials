@@ -15,18 +15,18 @@ Gem::Specification.new do |s|
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  
+
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency('spree_core',  '~> 1.1.0')
-  s.add_runtime_dependency('rdiscount',   '~> 1.6.8')
+  s.add_runtime_dependency('spree_core')
+  s.add_runtime_dependency('rdiscount')
 
-  s.add_development_dependency('shoulda',      '~> 3.0.0')
-  s.add_development_dependency('dummier',      '~> 0.3.0')
-  s.add_development_dependency('factory_girl', '~> 2.6.0')
-  s.add_development_dependency('capybara',     '~> 1.1.2')
-  s.add_development_dependency('sqlite3',      '~> 1.3.4')
-  s.add_development_dependency('simplecov',    '~> 0.6.1')
+  s.add_development_dependency('shoulda')
+  s.add_development_dependency('dummier')
+  s.add_development_dependency('factory_girl')
+  s.add_development_dependency('capybara')
+  s.add_development_dependency('sqlite3')
+  s.add_development_dependency('simplecov')
   # s.add_development_dependency('turn',         '~> 0.9.3')
-  
+
 end
