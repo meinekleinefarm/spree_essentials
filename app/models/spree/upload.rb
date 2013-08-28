@@ -23,7 +23,7 @@ class Spree::Upload < ::Spree::Asset
       {}
     end
   end
-  
+
   def no_attachement_errors
     if attachment_file_name.blank? || !attachment.errors.empty?
       # uncomment this to get rid of the less-than-useful interrim messages
