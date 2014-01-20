@@ -18,7 +18,7 @@ class Spree::Upload < ::Spree::Asset
 
   def attachment_sizes
     if image_content?
-      { :mini => '48x48>', :small => '150x150>', :medium => '420x300>', :large => '800x500>' }
+      { :mini => '100x100>', :small => '420x420#', :medium => '460x345#', :large => '700x700>' }
     else
       {}
     end
